@@ -2,7 +2,7 @@ kind: PersistentVolumeClaim
 apiVersion: v1
 metadata:
   name: mongo-storage
-  namespace: mission-critial-pacman
+  namespace: mission-critical-pacman
 spec:
   accessModes:
     - ReadWriteOnce

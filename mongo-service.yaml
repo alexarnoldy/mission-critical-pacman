@@ -4,6 +4,7 @@ metadata:
   labels:
     name: mongo
   name: mongo
+  namespace: mission-critical-pacman
 spec:
   type: NodePort
   ports:
